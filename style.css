@@ -3,6 +3,19 @@
     src: url('zrnic.otf');
 }
 
+#spin{
+    /* background: blue; */
+    /* transform-origin: center; */
+    /* animation: turn 3s linear infinite; */
+}
+@keyframes turn{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform:rotate(360deg);
+    }
+}
+
 @media (max-width:800px){
    #wrapper{
     zoom:0.75
