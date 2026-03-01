@@ -1,0 +1,23 @@
+@font-face {
+    font-family: zrnic;
+    src: url('zrnic.otf');
+}
+
+@media (max-width:800px){
+   #wrapper{
+    zoom:0.75
+   }
+}
+    
+@media (max-width:600px){
+   #wrapper{
+    zoom:0.5
+   }
+}
+    
+@media (max-width:400px){
+   #wrapper{
+    zoom:0.25
+   }
+}
+    
