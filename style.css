@@ -3,6 +3,12 @@
     src: url('zrnic.otf');
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 #spin{
     /* background: blue; */
     /* transform-origin: center; */
