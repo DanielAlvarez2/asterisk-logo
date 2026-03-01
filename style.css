@@ -23,19 +23,19 @@
 }
 
 @media (max-width:800px){
-   #wrapper{
+   #logo{
     zoom:0.75
    }
 }
     
 @media (max-width:600px){
-   #wrapper{
+   #logo{
     zoom:0.5
    }
 }
     
 @media (max-width:400px){
-   #wrapper{
+   #logo{
     zoom:0.25
    }
 }
