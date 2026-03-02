@@ -3,6 +3,11 @@
     src: url('zrnic.otf');
 }
 
+@font-face {
+    font-family: CAT;
+    src: url('CAT-North-Licht.ttf');
+}
+
 *{
     margin:0;
     padding:0;
