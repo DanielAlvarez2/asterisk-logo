@@ -68,6 +68,14 @@
     bottom:60px;
 }
 
+#copy{
+    font-size: 10px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
 .spoke{
     height:100px;
     width:15px;
