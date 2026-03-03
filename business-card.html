@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="business-card.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: zrnic;
+        }
+        .bar-front{
+            width:20px;
+            height:160px;
+            border:1px solid red;
+            background:red;
+            border-radius: 25px;
+        }
+        #bar2-front{
+            transform: rotate(60deg);
+        }
+
+        #bar3-front{
+            transform: rotate(60deg);
+        }
+    </style>
+</head>
+<body>
+    <div style="width:100%;
+                height:100vh;
+                height:100svh;
+                display:grid;
+                place-content: center;
+                ">
+        <div style="width:2in;
+                    height:3.5in;
+                    display: flex;
+                    flex-direction: column;
+                    border:1px solid black">
+            <div style="height:50%;display:grid;place-content: center;">
+                <div class="bar-front" id="bar1-front">
+                    <div class="bar-front" id="bar2-front">
+                        <div class="bar-front" id="bar3-front"></div>
+                    </div>
+                </div>
+            </div>            
+            <div style="height:50%;display: grid;place-content: center;">
+                <div style="text-align: center;">
+                    <span style="font-size: 30px;font-weight:900 ;color:blue;">Daniel Alvarez</span><br>
+                    <span style="font-size: 23px;font-weight: 100;">Software Engineer</span><br>
+                    <span style="font-size: 12.5px;">daniel.alvarez@AsteriskSoftware.com</span><br>
+                    (702) 513-1689<br>
+                    65 High Ridge Rd, #109<br>
+                    Stamford, CT 06905<br>
+                    <span style="color:red">*</span> <span style="color:blue">Asterisk</span>Software.com
+                </div>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
