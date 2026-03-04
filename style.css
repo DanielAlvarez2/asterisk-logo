@@ -199,6 +199,9 @@ p{
     gap:30px;
     margin: 0 auto;
 }
+#problem img{
+    border-radius: 15px;
+}
 p{
     font-size: 25px;
 }
@@ -238,4 +241,10 @@ input,textarea{
 }
 #pricing{
     padding-top: 50px;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+#pricing img{
+    max-width:50%;
 }
