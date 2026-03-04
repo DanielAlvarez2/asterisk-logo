@@ -81,6 +81,7 @@
 .spoke{
     height:100px;
     width:15px;
+    border-radius: 25px;
     background:red;
 }
 
