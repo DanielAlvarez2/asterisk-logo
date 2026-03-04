@@ -16,12 +16,14 @@
 
 #logo-wrapper{
     text-align: center;
+    position: relative;
     font-size: 250px;
     width:100%;
     height:100vh;
     height:100svh;
     display: grid;
     place-content: center;
+    animation: hide-logo 2s linear 7s 1 forwards;
 }
 
 #logo{
@@ -89,11 +91,6 @@
 #spoke3{
     transform:rotate(60deg)
 }
-#spin{
-    /* background: blue; */
-    /* transform-origin: center; */
-    /* animation: turn 3s linear infinite; */
-}
 
 #progress-bar{
     width:300px;
@@ -119,6 +116,21 @@
     margin-top: 10px;
     font-size: 30px;
 }
+
+main{
+    position:relative;
+    bottom:0;
+    animation: show-main 2s linear 7s forwards;
+}
+navbar{
+    position: sticky;
+    top:0;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
 @keyframes loading {
     from{
         transform: translateX(-101%);
@@ -133,7 +145,21 @@
         transform: rotate(360deg);
     }
 }
-
+@keyframes hide-logo{
+    from{
+        top:0;
+    }to{
+        top:-100svh;
+        top:-100vh;
+    }
+}
+@keyframes show-main{
+    from{
+        bottom:0;
+    }to{
+        bottom:100vh;
+    }
+}
 @media (max-width:800px){
    #logo{
     zoom:0.75

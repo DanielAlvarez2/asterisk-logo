@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="business-card.css">
+
     <style>
         *{
             margin:0;
             padding:0;
             box-sizing: border-box;
+        }
+        #asterisk{
+            font-family: zrnic;
+            font-size: 100px;
+            color:blue;
+            position:relative;
+            top:20px;
+        }
+        #i{
+            display: inline-block;
+            position: relative;
+            bottom:6px;
+            transform: scaleY(0.75);
+            transform-origin: bottom;
+        }
+        #software{
+            font-family: CAT;
+            font-size: 47px;
+            position: relative;
+            bottom:5px;
+            color:#888;
+        }
+        #url{
+            font-family: sans-serif;
+            font-size:20px;
+            position: relative;
+            bottom:5px;
+        }
+        #spokes{
+            position:absolute;
+            top:-15px;
+            right:97px;
+        }
+        .spoke{
+            background:red;
+            width:10px;
+            height:50px;
+            border-radius: 25px;
+        }
+        #spoke2{
+            transform: rotate(60deg);
+        }
+        #spoke3{
+            transform: rotate(60deg);
         }
     </style>
 </head>
@@ -19,9 +65,31 @@
                 display:grid;
                 place-content: center;
                 ">
-        <div style="width:3.5in;height:2in;border:1px solid black">
+        <div style="width:3.5in;
+                    height:2in;
+                    display:grid;
+                    place-content: center;
+                    border:1px solid black"
+            onclick="flip()"
+        >
+            <div id="logo-wrapper" style="text-align: center;">
+                <div id="asterisk">aster<span id="i">I</span>sk<span id="spokes">
+                    <div class="spoke" id="spoke1">
+                        <div class="spoke" id="spoke2">
+                            <div class="spoke" id="spoke3"></div>
+                        </div>
+                    </div>
+                </span></div>
+                <div id="software">SOFTWARE</div>
+                <div id="url"><span style="color:red;">*</span>AsteriskSoftware.com</div>
+            </div><!-- #logo-wrapper -->
 
         </div>
     </div>
+    <script>
+        function flip(){
+            window.location.replace('business-card.html')
+        }
+    </script>
 </body>
 </html>
