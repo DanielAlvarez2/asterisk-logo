@@ -101,7 +101,7 @@
     border:1px solid black;
     margin:0 auto;
     border-radius: 50px;
-    overflow: hidden;
+    overflow: clip;
 }
 
 #progress{
