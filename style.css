@@ -215,11 +215,14 @@ p{
 details{
     text-align: left;
 }
-details,summary{
+details{
     width:50ch;
 }
 p, summary{
     font-size: 25px;
+}
+summary{
+    cursor: pointer;
 }
 #contact-form{
     padding-top:50px;
