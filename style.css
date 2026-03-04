@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #logo-wrapper{
     text-align: center;
     position: relative;
@@ -54,7 +58,6 @@
 }
 
 #software{
-    font-size: 150px;
     color: #777;
     font-size: 120px;
     position:relative;
@@ -123,9 +126,10 @@ main{
     bottom:0;
     animation: show-main 2s linear 7s forwards;
 }
-navbar{
+nav{
     position: sticky;
     top:0;
+    background:white;
 }
 nav ul{
     display:flex;
@@ -178,4 +182,60 @@ nav ul{
     zoom:0.25
    }
 }
-    
+   
+#problem{
+    margin-top: 50px;
+}
+#problem img,#solution img{
+    max-width: 33vw;
+    max-height: 300px;
+}
+p{
+    margin-bottom: 20px;
+    max-width: 60ch;
+}
+#problem, #solution{
+    display: flex;
+    gap:30px;
+    margin: 0 auto;
+}
+p{
+    font-size: 25px;
+}
+#contact-form{
+    padding-top:50px;
+}
+form{
+    width:300px;
+    background:lightblue;
+    margin:0 auto 50px;
+    padding:10px;
+    border-radius: 10px;
+}
+input[type='submit']{
+    padding: 10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+textarea{
+    width:100%;
+    height:150px;
+    padding:2px;
+}
+h1{
+    text-align: center;
+}
+input,textarea{
+    font-size: 16px;
+    width:100%;
+}
+#home{
+    padding-top: 50px;
+    /* text-align: center; */
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+}
+#pricing{
+    padding-top: 50px;
+}
