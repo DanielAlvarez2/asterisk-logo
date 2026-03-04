@@ -101,7 +101,7 @@
     border:1px solid black;
     margin:0 auto;
     border-radius: 50px;
-    overflow: clip;
+    overflow: hidden;
 }
 
 #progress{
@@ -109,17 +109,14 @@
     width:300px;
     height:50px;
     position:relative;
-    -webkit-transform: translateX(-101%);
     transform: translateX(-101%);
     animation: loading 5s ease-in-out 2s forwards;
 }
 
 @keyframes loading {
     from{
-        /* transform: translateX(-101%); */
         transform: translateX(-101%);
     }to{
-        /* transform: translateX(0); */
         transform: translateX(0);
     }
 }
