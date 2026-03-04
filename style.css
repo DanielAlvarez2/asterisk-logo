@@ -111,7 +111,7 @@
     height:50px;
     /* border-radius: 50px; */
     position:relative;
-    -webkit-transform: translateX(-101%);
+    /* -webkit-transform: translateX(-101%); */
     transform: translateX(-101%);
     animation: loading 5s ease-in-out 2s forwards;
 }
