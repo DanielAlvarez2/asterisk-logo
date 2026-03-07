@@ -18,9 +18,12 @@
 html{
     scroll-behavior: smooth;
 }
-
+a:active{
+    background:lightgray;
+}
 a{
     text-decoration: none;
+    margin-top: 5px;
 }
 a,
 a:visited{
