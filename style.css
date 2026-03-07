@@ -83,7 +83,7 @@ a:visited{
 }
 
 #software{
-    color: #777;
+    color: black;
     font-size: 120px;
     position:relative;
     bottom:60px;
@@ -96,6 +96,7 @@ a:visited{
     font-family: sans-serif;
     position: relative;
     bottom:60px;
+    color:#666;
 }
 
 #copy{
