@@ -365,6 +365,11 @@ nav li:hover{
         width: 30ch;
     }
 }
+@media(max-width:500px){
+    #pricing p{
+        width: 20ch;
+    }
+}
 
 @media(max-width:1215px){
     #about{
@@ -378,11 +383,6 @@ nav li:hover{
 @media(max-width:690px){
     #about p{
         width:35ch;
-    }
-}
-@media(max-width:500px){
-    #about p{
-        width:20ch;
     }
 }
 @media(max-width:560px){
