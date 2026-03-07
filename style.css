@@ -249,7 +249,7 @@ summary{
 }
 #contact-form img{
     max-width:40%;
-    min-height: 110vh;
+    max-height: 600px;
 }
 form{
     width:300px;
@@ -304,6 +304,7 @@ input,textarea{
 }
 #pricing img{
     max-width:50%;
+    max-height: 600px;
 }
 img{
     max-width: 100%;

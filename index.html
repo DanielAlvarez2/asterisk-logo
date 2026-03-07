@@ -11,6 +11,9 @@
 <script>
     const menuPic = Math.floor(Math.random() * 15)
     const techPic = Math.floor(Math.random() * 11)
+    const faqPic = Math.floor(Math.random() * 10)
+    const contactPic = Math.floor(Math.random() * 9)
+    const pricingPic = Math.floor(Math.random() * 11)
     const fineDiningPic = Math.floor(Math.random() * 6)
 </script>
 
@@ -121,7 +124,12 @@
 
 
                 <div id="pricing">
-                    <img src="/images/invoice.jpg">
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/pricing${pricingPic}.jpg">
+                            `)
+                        </script>
+
                     <div>
                         <h1><span class="red-underline">Pricing</span></h1><br><br>
                         <p style="width:40ch;margin:0 auto;">
@@ -178,7 +186,12 @@
                         <br><br>
                     
                     </div>
-                    <img src="images/faq.jpg" style="width:50vw;">
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/faq${faqPic}.jpg">
+                            `)
+                        </script>
+
                 </div><!-- #faqs -->
 
 
@@ -187,7 +200,12 @@
 
 
                 <div id="contact-form">
-                    <img src="images/send.jpg">
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/contact${contactPic}.jpg">
+                            `)
+                        </script>
+
                     <form   name="contact"
                             netlify>
                         <h1><span class="red-underline">Get in touch</span></h1>
