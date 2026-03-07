@@ -382,7 +382,7 @@ nav li:hover{
 }
 @media(max-width:500px){
     #about p{
-        width:25ch;
+        width:20ch;
     }
 }
 @media(max-width:560px){
