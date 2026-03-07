@@ -213,7 +213,7 @@ nav ul{
 }
 #problem img,#solution img{
     max-width: 33%;
-    max-height: 300px;
+    max-height: 400px;
 }
 p{
     margin-bottom: 20px;
