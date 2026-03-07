@@ -156,6 +156,7 @@ main{
 nav{
     font-family: zrnic;
     position: fixed;
+    width:100%;
     top:0;
     padding-top:5px;
     background:white;
