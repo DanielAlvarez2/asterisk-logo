@@ -248,6 +248,7 @@ form{
     /* margin:0 auto 50px; */
     padding:10px;
     border-radius: 10px;
+    border: 1px solid black;
 }
 input[type='submit']{
     padding: 10px 20px;
@@ -441,5 +442,14 @@ nav li:hover{
 @media(max-width:1150px){
     #faqs{
         flex-direction: column;
+    }
+}
+@media(max-width:850px){
+    #contact-form{
+        flex-direction: column-reverse;
+        gap:20px;
+    }
+    #contact-form img{
+        max-width: 75%;
     }
 }
