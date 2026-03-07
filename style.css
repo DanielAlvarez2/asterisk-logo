@@ -33,11 +33,11 @@ a:visited{
 #page-wrapper{
     position: relative;
     width: 100%;
-    background:lightblue;
+    background:#AEBBFF;
 }
 #content-wrapper{
     max-width:1600px;
-    background:lightblue;
+    background:#AEBBFF;
     position: relative;
     margin: 0 auto;
 }
@@ -160,7 +160,7 @@ nav{
     width:100%;
     top:0;
     padding:5px 0;
-    background:lightblue;
+    background:#AEBBFF;
     z-index: 100;
 }
 nav ul{
