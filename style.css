@@ -33,7 +33,7 @@ a:visited{
 #page-wrapper{
     position: relative;
     width: 100%;
-    background:yellow;
+    background:lightblue;
 }
 #content-wrapper{
     max-width:1600px;
