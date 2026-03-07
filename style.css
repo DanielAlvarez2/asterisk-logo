@@ -362,3 +362,8 @@ nav li:hover{
         width:30ch;
     }
 }
+@media(max-width:500px){
+    #home p{
+        width:20ch;
+    }
+}
