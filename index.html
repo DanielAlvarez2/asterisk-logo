@@ -10,226 +10,242 @@
 
 <script>
     const menuPic = Math.floor(Math.random() * 15)
+    const techPic = Math.floor(Math.random() * 11)
     const fineDiningPic = Math.floor(Math.random() * 6)
 </script>
 
 
 <body style="position:relative;">
     <div id="page-wrapper">
-
-        <div id='logo-wrapper'>
-            <div id="logo">
-                <div id='asterisk'>
-                    aster<span id='i'>I
-                        </span>sk
-                    <span id="spinning">
-                        <div class="spoke" id="spoke1">
-                            <div class="spoke" id="spoke2">
-                                <div class="spoke" id="spoke3"></div>
+        <div id="content-wrapper">
+            <div id='logo-wrapper'>
+                <div id="logo">
+                    <div id='asterisk'>
+                        aster<span id='i'>I
+                            </span>sk
+                        <span id="spinning">
+                            <div class="spoke" id="spoke1">
+                                <div class="spoke" id="spoke2">
+                                    <div class="spoke" id="spoke3"></div>
+                                </div>
                             </div>
-                        </div>
-                    
-                    </span>
+                        
+                        </span>
+                    </div>
+                            <div id='software'>
+                                SOFTWARE
                 </div>
-                        <div id='software'>
-                            SOFTWARE
+
+                            <div id='url'>AsteriskSoftware.com</div>
+                            <div id="progress-bar">
+                                <div id="progress"></div>
+                            </div>
+                            <div id="loading">LOADING...</div>
+                        </div>
+                <div id="copy">&copy;2026 AsteriskSoftware.com<br>All Rights Reserved</div>
             </div>
 
-                        <div id='url'>AsteriskSoftware.com</div>
-                        <div id="progress-bar">
-                            <div id="progress"></div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#contact-form">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                    <div id="home">
+                        
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/menu${menuPic}.jpg">
+                            `)
+                        </script>
+                        
+                        
+                        <div>
+                            <h1><span class="red-underline">Asterisk Software</span></h1>
+                            <br>
+                            <p>
+                                We specialize in creating software for the restaurant industry by updgrading 
+                                websites to add more functionality. The goal is to seamlessly merge digital 
+                                online menus with physical, printed, table-top paper menus. Our solution 
+                                allows for both to be simultaneously updated with one simple, intuitive 
+                                user-interface. Restaurant owners and managers can easily control content 
+                                for all their venue's menus directly from their phone. 
+                            </p>
                         </div>
-                        <div id="loading">LOADING...</div>
-                    </div>
-            <div id="copy">&copy;2026 AsteriskSoftware.com<br>All Rights Reserved</div>
-        </div>
+                                
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/tech${techPic}.jpg">
+                            `)
+                        </script>
+                    </div><!-- #home -->
 
-        
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#faqs">FAQs</a></li>
-                <li><a href="#contact-form">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-                <div id="home">
-                    
-                    <script>
-                        document.write(`
-                            <img class="photo" src="/images/menu${menuPic}.jpg">
-                        `)
-                    </script>
-                    
-                    
+
+
+
+
+
+                    <div id="about">
+                        <div>
+                            <h1><span class="red-underline">About Us</span></h1>
+                            <br>
+                            <p>
+                                We bring decades of hospitality experience from Manhattan, Las Vegas, and L.A. 
+                                With an insider's view of the inner workings of the service industry, we are 
+                                able to produce software that provides a comprehensive, detail-oriented solution 
+                                to some of the most challenging pain-points of menu content management. We aim to 
+                                serve you with the same level of service that you provide to your guests.
+                                
+                            </p>                    
+                        </div>
+
+                        <script>
+                            document.write(`
+                                <img class="photo" src="/images/fine-dining${fineDiningPic}.jpg">
+                            `)
+                        </script>
+                        
+                    </div><!-- #about -->
+
+
+
+
+
+
+
+
+                <div id="pricing">
+                    <img src="/images/invoice.jpg">
                     <div>
-                        <h1><span class="red-underline">Asterisk Software</span></h1>
-                        <br>
-                        <p>
-                            We specialize in creating software for the restaurant industry by updgrading 
-                            websites to add more functionality. The goal is to seamlessly merge digital 
-                            online menus with physical, printed, table-top paper menus. Our solution 
-                            allows for both to be simultaneously updated with one simple, intuitive 
-                            user-interface. Restaurant owners and managers can easily control content 
-                            for all their venue's menus directly from their phone. 
+                        <h1><span class="red-underline">Pricing</span></h1><br><br>
+                        <p style="width:40ch;margin:0 auto;">
+                            Several factors will affect the pricing of your project: number of menus, 
+                            number of total pages, 
+                            complexity of your existing website, etc., but as a broad base-line you can 
+                            expect a quote of $1000 minimum. 
                         </p>
                     </div>
-                            
-                    <img src="/images/qr-code.png">
-                </div><!-- #home -->
+                </div><!-- #pricing -->
 
 
 
 
 
 
-                <div id="about">
+
+
+                <div id="faqs">
                     <div>
-                        <h1><span class="red-underline">About Us</span></h1>
-                        <br>
-                        <p>
-                            We bring decades of hospitality experience from Manhattan, Las Vegas, and L.A. 
-                            With an insider's view of the inner workings of the service industry, we are 
-                            able to produce software that provides a comprehensive, detail-oriented solution 
-                            to some of the most challenging pain-points of menu content management. We aim to 
-                            serve you with the same level of service that you provide to your guests.
-                            
-                        </p>                    
-                    </div>
+                        <h1><span class="red-underline">Frequently Asked Questions</span></h1>
+                        <br><br>
 
-                    <script>
-                        document.write(`
-                            <img class="photo" src="/images/fine-dining${fineDiningPic}.jpg">
-                        `)
-                    </script>
+                        <details>
+                            <summary><span style="color:blue;">Q</span>: Are you a website design agency?</summary>
+                            <br>
+                            <p>
+                                <span style="color:blue;">A</span>: NO! While website "design" is well within our 
+                                capabilities, it is not our main focus. We provide 
+                                a more data-centric software solution that uses 
+                                your existing website as a display output for the 
+                                ever-changing content of your venue's daily offerings.
+                            </p>
+                        </details>
+                        <br><br>
+
+                        <details>
+                            <summary><span style="color:blue;">Q</span>: Do you charge a monthly subscription fee?</summary>
+                            <br>
+                            <p>
+                                <span style="color:blue;">A</span>: No. You pay once, upon delivery of the final product. 
+                                There are no subscription fees.
+                            </p>
+                        </details>
+                        <br><br>
                     
-                </div><!-- #about -->
-
-
-
-
-
-
-
-
-            <div id="pricing">
-                <img src="/images/invoice.jpg">
-                <div>
-                    <h1><span class="red-underline">Pricing</span></h1><br><br>
-                    <p style="width:40ch;margin:0 auto;">
-                        Several factors will affect the pricing of your project: number of menus, 
-                        number of total pages, 
-                        complexity of your existing website, etc., but as a broad base-line you can 
-                        expect a quote of $1000 minimum. 
-                    </p>
-                </div>
-            </div><!-- #pricing -->
-
-
-
-
-
-
-
-
-            <div id="faqs">
-                <div>
-                    <h1><span class="red-underline">Frequently Asked Questions</span></h1>
-                    <br><br>
-
-                    <details>
-                        <summary><span style="color:blue;">Q</span>: Are you a website design agency?</summary>
-                        <br>
-                        <p>
-                            <span style="color:blue;">A</span>: NO! While website "design" is well within our 
-                            capabilities, it is not our main focus. We provide 
-                            a more data-centric software solution that uses 
-                            your existing website as a display output for the 
-                            ever-changing content of your venue's daily offerings.
-                        </p>
-                    </details>
-                    <br><br>
-                    <details>
-                        <summary><span style="color:blue;">Q</span>: Do you charge a monthly subscription fee?</summary>
-                        <br>
-                        <p>
-                            <span style="color:blue;">A</span>: No. You pay once, upon delivery of the final product. 
-                            There are no subscription fees.
-                        </p>
-                    </details>
-                
-                
-                </div>
-                <img src="images/faq.jpg" style="width:50vw;">
-            </div><!-- #faqs -->
-
-
-
-
-
-
-            <div id="contact-form">
-                <img src="images/send.jpg">
-                <form   name="contact"
-                        netlify>
-                    <h1><span class="red-underline">Get in touch</span></h1>
-
-                    <br>
-
-                    <label>
-                        Your Name<br>
-                        <input type="text" name="name" placeholder="First Name / Last Name">
-                    </label><br><br>
-
-                    <label>
-                        Your Restaurant's Name<br>
-                        <input type="text" name="restaurant-name" placeholder="Your Venue">
-                    </label><br><br>
-
-                    <label>
-                        Your Restaurant's Website<br>
-                        <input type="text" name="website" placeholder="RestaurantName.com">
-                    </label><br><br>
-
-                    <label>
-                        City, State<br>
-                        <input type="text" name="city-state" placeholder="Location">
-                    </label><br><br>
-
-                    <label>
-                        Your Email<br>
-                        <input type="email" name="email" placeholder="you@website.com">
-                    </label><br><br>
-
-                    <label>
-                        Your Phone Number<br>
-                        <input type="text" style="width:150px" name="phone" placeholder="(XXX) XXX-XXXX">
-                    </label><br><br>
-
-                    <label>
-                        Message<br>
-                        <textarea name="message" placeholder="Tell us about yourself"></textarea>
-                    </label>
-
-
-                    <br><br>
-                    <div style="text-align: center;">
-                        <input type="submit" value="Send">
+                        <details>
+                            <summary><span style="color:blue;">Q</span>: How long does it take to receive the finished product?</summary>
+                            <br>
+                            <p>
+                                <span style="color:blue;">A</span>: You can generally expect a project to last about 2 months to complete.
+                            </p>
+                        </details>
+                        <br><br>
+                    
                     </div>
-                </form>
-            </div><!-- #contact-form -->
+                    <img src="images/faq.jpg" style="width:50vw;">
+                </div><!-- #faqs -->
 
 
-        <footer>
-            &copy;2026 AsteriskSoftware.com<br>
-            All Rights Reserved.
-        </footer>
 
-        </main>
 
-    </div>
+
+
+                <div id="contact-form">
+                    <img src="images/send.jpg">
+                    <form   name="contact"
+                            netlify>
+                        <h1><span class="red-underline">Get in touch</span></h1>
+
+                        <br>
+
+                        <label>
+                            Your Name<br>
+                            <input type="text" name="name" placeholder="First Name / Last Name">
+                        </label><br><br>
+
+                        <label>
+                            Your Restaurant's Name<br>
+                            <input type="text" name="restaurant-name" placeholder="Your Venue">
+                        </label><br><br>
+
+                        <label>
+                            Your Restaurant's Website<br>
+                            <input type="text" name="website" placeholder="RestaurantName.com">
+                        </label><br><br>
+
+                        <label>
+                            City, State<br>
+                            <input type="text" name="city-state" placeholder="Location">
+                        </label><br><br>
+
+                        <label>
+                            Your Email<br>
+                            <input type="email" name="email" placeholder="you@website.com">
+                        </label><br><br>
+
+                        <label>
+                            Your Phone Number<br>
+                            <input type="text" style="width:150px" name="phone" placeholder="(XXX) XXX-XXXX">
+                        </label><br><br>
+
+                        <label>
+                            Message<br>
+                            <textarea name="message" placeholder="Tell us about yourself"></textarea>
+                        </label>
+
+
+                        <br><br>
+                        <div style="text-align: center;">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div><!-- #contact-form -->
+
+
+            <footer>
+                &copy;2026 AsteriskSoftware.com<br>
+                All Rights Reserved.
+            </footer>
+
+            </main>
+        </div><!-- #content-wrapper -->
+
+    </div><!-- #page-wrapper -->
 </body>
 </html>

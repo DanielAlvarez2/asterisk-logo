@@ -29,6 +29,13 @@ a:visited{
 #page-wrapper{
     position: relative;
     width: 100%;
+    background:yellow;
+}
+#content-wrapper{
+    max-width:1600px;
+    background:lightblue;
+    position: relative;
+    margin: 0 auto;
 }
 #logo-wrapper{
     text-align: center;
@@ -332,6 +339,7 @@ img{
 footer{
     text-align: center;
     font-size: 11px;
+    padding-top: 20px;
 }
 
 .photo{
@@ -340,4 +348,13 @@ footer{
 .red-underline{
     border-bottom: 1px solid red;
     padding-bottom: 5px;
+}
+nav li{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav li:hover{
+    background:lightgrey;
 }
