@@ -14,7 +14,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+body{
+    position: relative;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -210,26 +212,9 @@ nav ul{
     zoom:0.25
    }
 }
-   
-#problem{
-    margin-top: 50px;
-}
-#problem img,#solution img{
-    max-width: 33%;
-    max-height: 400px;
-}
 p{
     margin-bottom: 20px;
-    max-width: 60ch;
-}
-#problem, #solution{
-    display: flex;
-    gap:30px;
-    margin: 0 auto;
-    align-items: center;
-}
-#problem img{
-    border-radius: 15px;
+    width: 40ch;
 }
 details{
     text-align: left;
@@ -282,7 +267,6 @@ input,textarea{
 }
 #home{
     padding-top: 50px;
-    /* text-align: center; */
     display: flex;
     gap:50px;
     width:100%;
@@ -291,12 +275,10 @@ input,textarea{
     justify-content: space-around;
 }
 #home img{
-    max-width:33%;
-    max-height: 400px;
+    max-width:25%;
+    max-height: 500px;
 }
-#home p{
-    max-width: 40ch;
-}
+
 #pricing{
     padding-top: 50px;
     display: flex;
@@ -322,7 +304,7 @@ img{
     gap:50px;
 }
 #faqs img{
-    max-width:30%;
+    max-width:45%;
     max-height: 75vh;
 }
 
@@ -333,12 +315,9 @@ img{
     align-items: center;
     justify-content: space-around;
 }
-#about p{
-    width:40ch;
-}
 #about img{
-    max-height: 50vh;
-    max-width: 45%;
+    max-height: 60vh;
+    max-width: 50%;
 }
 footer{
     text-align: center;
@@ -361,4 +340,25 @@ nav li{
 }
 nav li:hover{
     background:lightgrey;
+}
+
+
+
+@media(max-width:1340px){
+    #home{
+        flex-direction: column;
+    }
+    #home img{
+        max-width: 50%;
+    }
+}
+@media(max-width:1000px){
+    #home img{
+        max-width: 75%;
+    }
+}
+@media(max-width:650px){
+    #home p{
+        width:30ch;
+    }
 }
