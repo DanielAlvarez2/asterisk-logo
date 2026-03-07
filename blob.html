@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const a = 45 + Math.floor(Math.random() * 50)
+        const b = 45 + Math.floor(Math.random() * 50)
+        const c = 45 + Math.floor(Math.random() * 50)
+        const d = 45 + Math.floor(Math.random() * 50)
+        const e = 45 + Math.floor(Math.random() * 50)
+        const f = 45 + Math.floor(Math.random() * 50)
+        const g = 45 + Math.floor(Math.random() * 50)
+        const h = 45 + Math.floor(Math.random() * 50)
+
+        const width = 200 + Math.floor(Math.random() * 300)
+        const height = 200 + Math.floor(Math.random() * 300)
+    </script>
+</head>
+<body>
+    <script>
+        document.write(`
+            <div style="
+                background:yellow;
+                width:${width}px;
+                height:${height}px;
+                // border:1px solid black;
+                border-radius:  ${a}% 
+                                ${b}% 
+                                ${c}% 
+                                ${d}% / 
+                                ${e}% 
+                                ${f}% 
+                                ${g}% 
+                                ${h}%; 
+    ">
+        ${a} ${b} ${c} ${d} / ${e} ${f} ${g} ${h} /${width} ${height}
+        `)
+    </script>
+
+    </div>
+</body>
+</html>

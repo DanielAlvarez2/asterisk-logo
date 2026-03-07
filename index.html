@@ -8,6 +8,11 @@
     <title>AsteriskSoftware.com *</title>
 </head>
 
+<script>
+    const menuPic = Math.floor(Math.random() * 15)
+    const fineDiningPic = Math.floor(Math.random() * 6)
+</script>
+
 
 <body style="position:relative;">
     <div id="page-wrapper">
@@ -39,23 +44,29 @@
             <div id="copy">&copy;2026 AsteriskSoftware.com<br>All Rights Reserved</div>
         </div>
 
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+        
         <main>
-            
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#faqs">FAQs</a></li>
-                        <li><a href="#contact-form">Contact</a></li>
-                    </ul>
-                </nav>
-            
                 <div id="home">
-                    <img class="photo" src="/images/physical-menu.png">
+                    
+                    <script>
+                        document.write(`
+                            <img class="photo" src="/images/menu${menuPic}.jpg">
+                        `)
+                    </script>
+                    
                     
                     <div>
-                        <h1>Asterisk Software</h1>
+                        <h1><span class="red-underline">Asterisk Software</span></h1>
                         <br>
                         <p>
                             We specialize in creating software for the restaurant industry by updgrading 
@@ -77,7 +88,7 @@
 
                 <div id="about">
                     <div>
-                        <h1>About Us</h1>
+                        <h1><span class="red-underline">About Us</span></h1>
                         <br>
                         <p>
                             We bring decades of hospitality experience from Manhattan, Las Vegas, and L.A. 
@@ -88,7 +99,12 @@
                             
                         </p>                    
                     </div>
-                    <img class="photo" src="images/table-pic.png">
+
+                    <script>
+                        document.write(`
+                            <img class="photo" src="/images/fine-dining${fineDiningPic}.jpg">
+                        `)
+                    </script>
                     
                 </div><!-- #about -->
 
@@ -102,7 +118,7 @@
             <div id="pricing">
                 <img src="/images/invoice.jpg">
                 <div>
-                    <h1>Pricing</h1><br><br>
+                    <h1><span class="red-underline">Pricing</span></h1><br><br>
                     <p style="width:40ch;margin:0 auto;">
                         Several factors will affect the pricing of your project: number of menus, 
                         number of total pages, 
@@ -121,7 +137,7 @@
 
             <div id="faqs">
                 <div>
-                    <h1>Frequently Asked Questions</h1>
+                    <h1><span class="red-underline">Frequently Asked Questions</span></h1>
                     <br><br>
 
                     <details>
@@ -159,7 +175,7 @@
                 <img src="images/send.jpg">
                 <form   name="contact"
                         netlify>
-                    <h1>Get in touch</h1>
+                    <h1><span class="red-underline">Get in touch</span></h1>
 
                     <br>
 
