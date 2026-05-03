@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .spoke{
+            width:10px;
+            height:75px;
+            border-radius: 20px;
+            background:#0283D6;
+            /* position:absolute; */
+        }
+        #spoke2{
+            transform:rotate(60deg);
+        }
+        #spoke3{
+            transform: rotate(60deg);
+        }
+    </style>
 </head>
 <body>
     <div style="width:100%;
@@ -21,8 +36,16 @@
             <div style="width:85px;
                         height:85px;
                         border-radius: 50%;
+                        display:grid;
+                        place-content: center;
                         border:10px solid #0283D6;">
-
+                
+                    <div class="spoke" id="spoke1">
+                        <div class="spoke" id="spoke2">
+                            <div class="spoke" id="spoke3"></div>
+                        </div>
+                    </div>
+                
             </div>
         </div>
     </div>
